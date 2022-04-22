@@ -18,8 +18,8 @@ Design: ![TEST_03](./contactform.jpg)
 - Github pages (multi-page)
 - HTML form
 - CSS linear gradients
-- CSS box-shadows
-- CSS hoover&active effects
+- CSS box-shadow
+- CSS transform & transition effects
 
 ## Authors
 
