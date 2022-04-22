@@ -39,6 +39,14 @@ input {
   border-radius: 8px;
   background: linear-gradient(#e7e9fe, #dce1ff);
   border: none;
+  transition: all 0.3s ease-out;
+}
+input:focus {
+  outline: 1px solid #949fed;
+}
+input:hover,
+textarea:hover {
+  box-shadow: -3px 5px 8px #c8c8cb;
 }
 .mr {
   margin-right: 20px;
@@ -55,23 +63,36 @@ textarea::placeholder {
   font-size: 16px;
 }
 textarea.message {
+  overflow: hidden;
   height: 100px;
   width: 100%;
   padding: 20px;
   border-radius: 8px;
   border: none;
+  outline: 1px solid #a5afed;
   background: linear-gradient(#a5afed, #a5afed);
+  transition: all 0.3s ease-out;
 }
 .submit {
-  display: inline-block;
   padding: 12px 40px;
   border-radius: 30px;
   background-color: blue;
-  color: white;
+  color: #fff;
   border: none;
   margin-top: 25px;
   margin-left: 50%;
   transform: translate(-50%);
+  transition: all 0.3s ease-out;
+}
+.submit:hover {
+  cursor: pointer;
+  background-color: #4343f8;
+  box-shadow: -3px 5px 8px #b9b9bc;
+  box-shadow: -3px 5px 8px #b9b9bc;
+}
+.submit:active {
+  box-shadow: -5px 8px 10px #aaaaaa;
+  transform: translate(-62px, 2px);
 }
 p {
   margin: 15px 0 5px 0;
