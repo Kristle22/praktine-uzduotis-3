@@ -11,10 +11,11 @@ body {
 }
 
 .container {
-  margin: 100px auto;
-  padding: 70px;
-  width: 800px;
-  background-color: rgb(162, 199, 236);
+  margin: auto;
+  padding: 70px 90px;
+  width: 90%;
+  max-width: 850px;
+  background-color: #d4e6fe;
 }
 .white {
   background-color: #fff;
@@ -36,7 +37,7 @@ input {
   padding: 20px;
   width: calc(50% - 10px);
   border-radius: 8px;
-  background-color: rgb(220, 220, 244);
+  background: linear-gradient(#e7e9fe, #dce1ff);
   border: none;
 }
 .mr {
@@ -44,7 +45,9 @@ input {
 }
 input:last-of-type {
   width: 100%;
+  padding: 25px;
   margin-bottom: 20px;
+  background: linear-gradient(#c7cdfd, #c7cdfd);
 }
 input::placeholder,
 textarea::placeholder {
@@ -57,7 +60,7 @@ textarea.message {
   padding: 20px;
   border-radius: 8px;
   border: none;
-  background-color: rgb(177, 204, 244);
+  background: linear-gradient(#a5afed, #a5afed);
 }
 .submit {
   display: inline-block;
@@ -71,6 +74,6 @@ textarea.message {
   transform: translate(-50%);
 }
 p {
-  margin: 20px 0 0 20px;
-  color: rgb(49, 227, 224);
+  margin: 15px 0 5px 0;
+  color: #05bd8b;
 }
