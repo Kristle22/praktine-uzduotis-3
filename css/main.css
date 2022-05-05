@@ -76,6 +76,7 @@ textarea.message {
   outline: 1px solid #a5afed;
   background: linear-gradient(#a5afed, #a5afed);
   transition: all 0.3s ease-out;
+  resize: none;
 }
 .submit {
   padding: 12px 40px;
